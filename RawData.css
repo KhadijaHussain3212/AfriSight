@@ -1,0 +1,58 @@
+.rawdata_header
+{
+    /* background: url(images/people-gathering-during-sunset-1066201.jpg); */
+    /* min-height: 700px; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.rawdata-heading
+{
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 67px;
+}
+.rawdata-paragraph
+{
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #004549;
+}
+
+.rawdata-button{
+background: #137DAB;
+box-shadow: 2px 4px 8px rgba(0, 38, 40, 0.15);
+border-radius: 8px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+border-radius: 8px;
+}
+
+.second-portion{
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 67px;
+color: #1B2435;
+}
+
+.insight_box
+{
+
+width: 328px;
+height: 456px;
+background: #F3F5F5;
+border-radius: 4px;
+}

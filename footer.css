@@ -1,0 +1,51 @@
+.footer{
+    height: 290px;
+    background: #042E40;
+    margin-top: 300px;
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-row{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo-img{
+    margin: 60px 0px 27px 0px;
+}
+.footer-privacy{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding: 7% 25% 0% 25%;
+}
+.footer-labels{
+    color:#fff !important;
+    text-transform: uppercase;
+    margin: 0px 15px
+}
+.privacypolicy{
+    margin-left: 10px;
+}
+
+
+.home-navbar{
+    background-color: #042E40;
+    height: 72px;
+    text-align: center;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    justify-content: center;
+    
+}
+.nav-text{
+    color:#fff !important;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
