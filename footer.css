@@ -49,3 +49,50 @@ a:hover {
     color: #fff;
     text-decoration: underline;
 }
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-main-nav{
+    display: flex;
+    
+}
+
+.nav-01{
+    height: 104px !important;
+}
+.main-nav-logo{
+    padding: 28px 0px 28px 78px;
+}
+
+.right-main-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 100px 28px 0px;
+}
+
+.main-nav-input{
+   
+}
+.main-nav-contact{
+border: 2px solid #137DAB;
+width: 152px;
+height: 48px;
+color: #fff;
+text-transform: uppercase;
+background: #137DAB;
+box-shadow: 1px 3px 2px rgba(0, 55, 79, 0.04), 2px 4px 8px rgba(0, 38, 40, 0.15);
+border-radius: 8px;
+}
+.main-nav-contact-div{
+    margin-right: 2%;
+}
+.main-nav-en{
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+    margin-top: 9px;
+}
+.main-nav-input{
+    margin-top: 10px;
+}
