@@ -35,11 +35,11 @@
     text-align: center;
 }
 
-.navbar-expand-lg .navbar-collapse {
+/* . {
     display: flex!important;
     justify-content: center;
     
-}
+} */
 .nav-text{
     color:#fff !important;
     text-transform: uppercase;
