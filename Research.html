@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Research.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -21,9 +23,36 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+    <nav class="nav-01 ">
+        <div class="main-nav row mx-0">
+            <div class="col-md-6">
+                <img src='./images/logo.png' alt='Afri Sight' class="main-nav-logo" />
+            </div>
+
+            <div class="right-main-nav col-md-6">
+                <div class="main-nav-input">
+                    <img src='./images/search-dark.png' class="main-nav-search" />
+                    <!-- <input class="main-nav-input-field" /> -->
+                </div>
+                <div class="main-nav-en">
+                    <img src='./images/profile.png' class="profile-main-nav" />
+                    <span class="polygon-main-nav">EN</span>
+                    <img src='./images/dropdown.png' class="polygon-main-nav" />
+                </div>
+                <a href="./ContactUs.html">
+                    <div class="main-nav-contact-div">
+                        <button class="main-nav-contact">
+                            Contact Us
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
     <nav class="navbar navbar-expand-lg navbar-light home-navbar">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -43,6 +72,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-text" href="./Research.html">RESEARCH</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="./ReseachTopic.html">RESEARCH TOPIC</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-text" href="./ContactUs.html">CONTACT US</a>
@@ -77,27 +109,29 @@
         <div class="row mx-0">
             <div class="col-md-7">
                 <div class="research-second-content">
-                    <div class='research-second-heading'>What Europeans Want <br />from the European Union</div>
+                    <div class='research-second-heading'>What Europeans Want from <br /> the European Union</div>
                     <div class="Research-second-author">
                         Research by: Author Name
                     </div>
                     <div class="research--second-button-div">
                         <button class="research--second-button">
-                            Download
+                            GET RESEARCH
                         </button>
-                    </div>
-                    <div class="Research-second-author">
-                        SHARE RESEARCH
-                    </div>
-                    <div class="blue-icons">
-                        <img src='./images/facebook-blue.png' alt='facebook-icon' />
-                        <img src='./images/instagram-blue.png' alt='instagram-icon' class="instagram-icon" />
-                        <img src='./images/twitter-blue.png' alt="twitter-icon" />
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 photo">
-                <img src='./images/blank_square.png' alt='photo' class="second-image" />
+            <div class="col-md-5 research-icons">
+                <div class="photo-01">
+                    <div class="gradient-content">
+                        February 2021
+                    </div>
+                    <!-- <img src='./images/picture02.png' alt='photo' class="second-image" /> -->
+                </div>
+                <div class="blue-icons">
+                    <img src='./images/facebook-blue.png' alt='facebook-icon' /> <br /><br />
+                    <img src='./images/instagram-blue.png' alt='instagram-icon' /> <br /><br />
+                    <img src='./images/twitter-blue.png' alt="twitter-icon" />
+                </div>
             </div>
         </div>
     </div>
@@ -106,23 +140,34 @@
     <!-- /************* third part  *************/ -->
 
     <div class="research-third-header">
-        <div class="research-second-content">
-            <div class='research-second-heading'>What Europeans Want <br />from the European Union</div>
-            <div class="Research-second-author">
-                Research by: Author Name
+        <div class="row mx-0">
+            <div class="col-md-5 research-icons-third">
+                <div class="blue-icons-right">
+                    <img src='./images/facebook-blue.png' alt='facebook-icon' /> <br /><br />
+                    <img src='./images/instagram-blue.png' alt='instagram-icon' /> <br /><br />
+                    <img src='./images/twitter-blue.png' alt="twitter-icon" />
+                </div>
+                <div class="photo-02">
+                    <div class="gradient-content gradient-content-02-03">
+                        February 2021
+                    </div>
+                    <!-- <img src='./images/picture04.png' alt='photo' class="second-image" /> -->
+                </div>
+
             </div>
-            <div class="research--second-button-div">
-                <button class="research--second-button">
-                    Download
-                </button>
-            </div>
-            <div class="Research-second-author">
-                SHARE RESEARCH
-            </div>
-            <div class="blue-icons">
-                <img src='./images/facebook-blue.png' alt='facebook-icon' />
-                <img src='./images/instagram-blue.png' alt='instagram-icon' class="instagram-icon" />
-                <img src='./images/twitter-blue.png' alt="twitter-icon" />
+
+            <div class="col-md-7">
+                <div class="research-second-content">
+                    <div class='research-second-heading'>What Europeans Want from <br /> the European Union</div>
+                    <div class="Research-second-author">
+                        Research by: Author Name
+                    </div>
+                    <div class="research--second-button-div">
+                        <button class="research--second-button">
+                            GET RESEARCH
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -131,23 +176,32 @@
     <!-- /************* fourth part  *************/ -->
 
     <div class="research-fourth-header">
-        <div class="research-second-content">
-            <div class='research-second-heading'>What Europeans Want <br />from the European Union</div>
-            <div class="Research-second-author">
-                Research by: Author Name
+        <div class="row mx-0">
+            <div class="col-md-7">
+                <div class="research-second-content">
+                    <div class='research-second-heading'>What Europeans Want from <br /> the European Union</div>
+                    <div class="Research-second-author">
+                        Research by: Author Name
+                    </div>
+                    <div class="research--second-button-div">
+                        <button class="research--second-button">
+                            GET RESEARCH
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="research--second-button-div">
-                <button class="research--second-button">
-                    Download
-                </button>
-            </div>
-            <div class="Research-second-author">
-                SHARE RESEARCH
-            </div>
-            <div class="blue-icons">
-                <img src='./images/facebook-blue.png' alt='facebook-icon' />
-                <img src='./images/instagram-blue.png' alt='instagram-icon' class="instagram-icon" />
-                <img src='./images/twitter-blue.png' alt="twitter-icon" />
+            <div class="col-md-5 research-icons">
+                <div class="photo-03">
+                    <div class="gradient-content gradient-content-02-03">
+                        February 2021
+                    </div>
+                    <!-- <img src='./images/picture03.png' alt='photo' class="second-image" /> -->
+                </div>
+                <div class="blue-icons">
+                    <img src='./images/facebook-blue.png' alt='facebook-icon' /> <br /><br />
+                    <img src='./images/instagram-blue.png' alt='instagram-icon' /> <br /><br />
+                    <img src='./images/twitter-blue.png' alt="twitter-icon" />
+                </div>
             </div>
         </div>
     </div>
@@ -172,10 +226,10 @@
             </div>
         </div>
         <div class="footer-privacy row mx-0">
-            <div class="col-md-8">
+            <div class="col-md-8 pr-0">
                 Copyright © 2021 AfriSight B.V. All rights reserved
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 privacypolicy">
                 Privacy policy
             </div>
         </div>

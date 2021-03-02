@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="contactUs.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -24,6 +26,32 @@
 </head>
 
 <body>
+    <nav class="nav-01 ">
+        <div class="main-nav row mx-0">
+            <div class="col-md-6">
+                <img src='./images/logo.png' alt='Afri Sight' class="main-nav-logo" />
+            </div>
+
+            <div class="right-main-nav col-md-6">
+                <div class="main-nav-input">
+                    <img src='./images/search-dark.png' class="main-nav-search" />
+                    <!-- <input class="main-nav-input-field" /> -->
+                </div>
+                <div class="main-nav-en">
+                    <img src='./images/profile.png' class="profile-main-nav" />
+                    <span class="polygon-main-nav">EN</span>
+                    <img src='./images/dropdown.png' class="polygon-main-nav" />
+                </div>
+                <a href="./ContactUs.html">
+                    <div class="main-nav-contact-div">
+                        <button class="main-nav-contact">
+                            Contact Us
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
     <nav class="navbar navbar-expand-lg navbar-light home-navbar">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -45,6 +73,9 @@
                     <a class="nav-link nav-text" href="./Research.html">RESEARCH</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link nav-text" href="./ReseachTopic.html">RESEARCH TOPIC</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link nav-text" href="./ContactUs.html">CONTACT US</a>
                 </li>
             </ul>
@@ -57,83 +88,91 @@
         <div class="contactUs-content">
             Contact Us
         </div>
-    </div>
-
-    <!-- /************* second part  *************/ -->
-
-
-    <div class="contactUs-second-row ">
-        <div class="row mx-0">
-            <div class="col-md-6 contactUs-photo">
-                <img src='./images/contactUs.png' alt='photo' class="laptop-image" />
-            </div>
-            <div class="col-md-6 photo">
-                <div class="container">
-                    <div class='contactUs-subheading'>Contact us:</div>
-                    <br /><br />
-                    <div class='contactUs-subheading-content'>
-                        AfriSight B.V. Marconistraat 16 3029 AK, Rotterdam The Netherlands
-                        <br /><br />
-                        CoC: 71698515
-                        <br /><br />
-                        VAT: NL858814791B01
-                        <br /><br />
-                        Use our contact form to contact AfriSight with general questions, press inquiries, or to get a
-                        quote for your upcoming
-                        project. If you have questions about specific services or availability, please be as descriptive
-                        as possible.
-                        <br /><br />
-                    </div>
-                </div>
-
-            </div>
+        <div class="curved-line">
+            <img src="./images/curveunderline.png" alt="" />
         </div>
     </div>
 
+    <div class="contact-vector">
+        <!-- /************* second part  *************/ -->
 
-    <!-- /************* third part  *************/ -->
 
-    <div class="contactUs-third">
-        <div class="container">
-            <div class="row mx-0 contactUs-third-row ">
-                <div class="col-md-4">
+        <div class="contactUs-second-row ">
+            <div class="row mx-0">
+                <div class="col-md-6 contactUs-photo">
+                    <img src='./images/photo.png' alt='photo' class="laptop-image" />
+                </div>
+                <div class="col-md-6 photo">
+                    <div class="container">
+                        <div class='contactUs-subheading'>Contact us:</div>
+                        <br /><br />
+                        <div class="d-flex">
+                            <img src='./images/mapicon.png' class="map-icon" />
+                            <div class='contactUs-subheading-content'>
+                                AfriSight B.V. Marconistraat 16 3029 AK, Rotterdam The Netherlands
+                                <br /><br />
+                                <span class="bold-text">CoC:</span> 71698515 <br />
+                                <span class="bold-text">VAT:</span> NL858814791B01
+                                <br /><br />
+                                Use our contact form to contact AfriSight with general questions, press inquiries, or to
+                                get
+                                a
+                                quote for your upcoming
+                                project. If you have questions about specific services or availability, please be as
+                                descriptive
+                                as possible.
+                                <br /><br />
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-                <div class="col-md-1">
-                    <img src='./images/line.png' alt="" />
-                </div>
-                <div class="col-md-7 ">
+            </div>
+        </div>
+
+
+        <!-- /************* third part  *************/ -->
+
+        <div class="contactUs-third">
+            <div class="container">
+                <div class="row mx-0 contactUs-third-row ">
+
+
                     <div class="card text-left ">
                         <div class="card-body contactUs-third-row">
 
                             <form>
-                                <div class="row mx-0">
-                                    <div class="form-group">
-                                        <label class="contact-label">Full Name *</label>
-                                        <input type="text" class="form-control form-control-lg">
-                                    </div>
-                                </div>
+
                                 <div class="row mx-0">
                                     <div class="col-md-6 mx-0 no-padding">
                                         <div class="form-group">
-                                            <label class="contact-label">Email *</label>
-                                            <input type="text" class="form-control form-control-lg">
+                                            <label class="contact-label"> Name</label>
+                                            <input type="text" class="form-control form-control-lg" />
                                         </div>
                                     </div>
                                     <div class="col-md-6 no-padding">
                                         <div class="form-group">
-                                            <label class="contact-label">Phone *</label>
-                                            <input type="text" class="form-control form-control-lg">
+                                            <label class="contact-label">Company</label>
+                                            <input type="text" class="form-control form-control-lg" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row mx-0">
+
+                                    <div class="form-group  col-md-12 no-padding ">
+                                        <label class="contact-label">Email *</label>
+                                        <input type="text" class="form-control form-control-lg" />
+                                    </div>
+
+                                </div>
+                                <div class="row mx-0">
                                     <div class="form-group col-md-12 no-padding">
                                         <label class="contact-label">Message *</label>
-                                        <input type="text" class="form-control form-control-lg">
+                                        <br />
+                                        <textarea type="text" class="textarea" rows="4"></textarea>
                                     </div>
                                 </div>
-                                <br /><br />
+                                <!-- <br /><br />
                                 <div class="row mx-0">
                                     <div class="form-group col-md-12 no-padding">
                                         <input type="checkbox" id="abc" name="abc" value="abc">
@@ -148,9 +187,13 @@
                                             once in a while</label><br>
                                     </div>
                                 </div>
-                                <br /><br />
+                                <br /><br /> -->
 
-                                <input type="submit" value="Submit" class="btn-block submit-btn">
+                                <div class="home---button-div">
+                                    <button class="home---button">
+                                        SUBMIT
+                                    </button>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -159,36 +202,37 @@
             </div>
 
         </div>
-    </div>
 
-    <!-- /************* footer part  *************/ -->
-    <div class="footer">
-        <div class="footer-logo">
-            <img src='./images/logo.png' alt="logo" class="footer-logo-img" />
+
+
+        <!-- /************* footer part  *************/ -->
+        <div class="footer">
+            <div class="footer-logo">
+                <img src='./images/logo.png' alt="logo" class="footer-logo-img" />
+            </div>
+            <div class="footer-row">
+                <div>
+                    <a href="./index.html" class="footer-labels">Home</a>
+                </div>
+                <div>
+                    <a href="./Research.html" class="footer-labels">Research</a>
+                </div>
+                <div>
+                    <a href="./AboutUs.html" class="footer-labels">About Us</a>
+                </div>
+                <div>
+                    <a href="./ContactUs.html" class="footer-labels">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-privacy row mx-0">
+                <div class="col-md-8 pr-0">
+                    Copyright © 2021 AfriSight B.V. All rights reserved
+                </div>
+                <div class="col-md-4 privacypolicy">
+                    Privacy policy
+                </div>
+            </div>
         </div>
-        <div class="footer-row">
-            <div>
-                <a href="./index.html" class="footer-labels">Home</a>
-            </div>
-            <div>
-                <a href="./Research.html" class="footer-labels">Research</a>
-            </div>
-            <div>
-                <a href="./AboutUs.html" class="footer-labels">About Us</a>
-            </div>
-            <div>
-                <a href="./ContactUs.html" class="footer-labels">Contact Us</a>
-            </div>
-        </div>
-        <div class="footer-privacy row mx-0">
-            <div class="col-md-8">
-                Copyright © 2021 AfriSight B.V. All rights reserved
-            </div>
-            <div class="col-md-4">
-                Privacy policy
-            </div>
-        </div>
-    </div>
 
 
 
