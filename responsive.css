@@ -1,9 +1,9 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-    .container {
+    /* .container {
         width: 100%;
         padding: 0px;
-    }
+    } */
 
     /*--------- navbar Start ----------*/
     .main-nav {
@@ -270,14 +270,30 @@
     /*---- Footer end ---*/
 }
 
+
+    @media only screen and (device-width: 768px) {
+       /* default iPad screens */
+    }
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #navbarNavDropdown{
+        display: flex !important;
+       justify-content: center !important;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+}
+
+
+.collapse .navbar-collapse{
+display: flex !important;
+justify-content: center !important;
 }

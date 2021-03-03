@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="contactUs.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- CDN Links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="contactUs.css">
-    <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <!-- JS, Popper.js, and jQuery -->
@@ -28,11 +31,13 @@
 <body>
     <nav class="nav-01 ">
         <div class="main-nav row mx-0">
-            <div class="col-md-6">
-                <img src='./images/logo.png' alt='Afri Sight' class="main-nav-logo" />
+            <div class="col-md-6 col-12">
+                <div class="main--logo">
+                    <img src='./images/logo.png' alt='Afri Sight' class="main-nav-logo" />
+                </div>
             </div>
 
-            <div class="right-main-nav col-md-6">
+            <div class="right-main-nav col-md-6 col-12">
                 <div class="main-nav-input">
                     <img src='./images/search-dark.png' class="main-nav-search" />
                     <!-- <input class="main-nav-input-field" /> -->
@@ -135,13 +140,13 @@
 
         <div class="contactUs-third">
             <div class="container">
-                <div class="row mx-0 contactUs-third-row ">
+                <div class="container">
 
 
-                    <div class="card text-left ">
+                    <div class="card text-left">
                         <div class="card-body contactUs-third-row">
 
-                            <form>
+                            <form class="container">
 
                                 <div class="row mx-0">
                                     <div class="col-md-6 mx-0 no-padding">
@@ -172,23 +177,6 @@
                                         <textarea type="text" class="textarea" rows="4"></textarea>
                                     </div>
                                 </div>
-                                <!-- <br /><br />
-                                <div class="row mx-0">
-                                    <div class="form-group col-md-12 no-padding">
-                                        <input type="checkbox" id="abc" name="abc" value="abc">
-                                        <label for="abc">I have read and accepted the
-                                            Privacy Policy*</label>
-                                    </div>
-                                </div>
-                                <div class="row mx-0">
-                                    <div class="form-group col-md-12 no-padding">
-                                        <input type="checkbox" id="abc" name="abc" value="abc">
-                                        <label for="abc">I would like to receive news, updates and thought leadership
-                                            once in a while</label><br>
-                                    </div>
-                                </div>
-                                <br /><br /> -->
-
                                 <div class="home---button-div">
                                     <button class="home---button">
                                         SUBMIT
@@ -206,7 +194,7 @@
 
 
         <!-- /************* footer part  *************/ -->
-        <div class="footer">
+        <div class="footer no-margin">
             <div class="footer-logo">
                 <img src='./images/logo.png' alt="logo" class="footer-logo-img" />
             </div>
@@ -225,14 +213,13 @@
                 </div>
             </div>
             <div class="footer-privacy row mx-0">
-                <div class="col-md-8 pr-0">
+                <div class="col-md-8 pr-0 copy-right">
                     Copyright © 2021 AfriSight B.V. All rights reserved
                 </div>
                 <div class="col-md-4 privacypolicy">
                     Privacy policy
                 </div>
             </div>
-        </div>
 
 
 

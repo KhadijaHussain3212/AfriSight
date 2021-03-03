@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raw Data </title>
+    <!-- css files -->
+    <link rel="stylesheet" href="RawData.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- CDN Links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="RawData.css">
-    <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <!-- JS, Popper.js, and jQuery -->
@@ -28,11 +32,13 @@
 <body>
     <nav class="nav-01 ">
         <div class="main-nav row mx-0">
-            <div class="col-md-6">
-                <img src='./images/logo.png' alt='Afri Sight' class="main-nav-logo" />
+            <div class="col-md-6 col-12">
+                <div class="main--logo">
+                    <img src='./images/logo.png' alt='Afri Sight' class="main-nav-logo" />
+                </div>
             </div>
 
-            <div class="right-main-nav col-md-6">
+            <div class="right-main-nav col-md-6 col-12">
                 <div class="main-nav-input">
                     <img src='./images/search-dark.png' class="main-nav-search" />
                     <!-- <input class="main-nav-input-field" /> -->
@@ -83,79 +89,85 @@
     </nav>
 
 
-
     <div class="rawData_header">
-        <div class="row mx-0">
-            <div class="col-md-6">
-                <div class="rawData-content">
-                    <div class='rawData-heading'>Raw Data</div>
-                    <div class="rawData-paragraph">
-                        Afrobarometer is a data-collection company dedicated to Africa. <br />
-                        The company enables the collection and the delivery of on-demand, <br />
-                        real-time, cost-effective, and reliable Africa
-                        consumer data and insights.
-                    </div>
-                    <div class="rawData-button-div">
-                        <button class="rawData-button">
-                            Learn More
-                        </button>
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-md-7 col-12">
+                    <div class="rawData-content">
+                        <div class='rawData-heading'>Afrobarometer</div>
+                        <div class="rawData-paragraph">
+                            Afrobarometer is a data-collection company dedicated to Africa.
+                            The company enables the collection and the delivery of on-demand, real-time, cost-effective,
+                            and
+                            reliable Africa
+                            consumer data and insights.
+                        </div>
+                        <div class="home---button-div">
+                            <button class="home---button">
+                                Download
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 image-raw">
-                <img src='./images/rawdata-header.png' alt="raw data" class="rawdata-img" />
-
+                <div class="col-md-5 home-photo col-12">
+                    <img src='./images/rawdata-header.png' alt='photo' class="home-image" />
+                </div>
             </div>
         </div>
     </div>
 
 
 
-    <div class="rawData-second-portion">
-        Raw Data
+    <div class="container">
+        <div class="rawData-second-portion">
+            Raw Data
+        </div>
     </div>
 
 
     <div class="rawData-third-portion">
         <div class="row mx-0">
             <div class="col-md-5 left-rawdata-div">
-                <div class="row mx-0">
-                    <div class="search-input">
-                        <img src='./images/search icon.png' alt="" class="search-icon" />
-                        <input placeholder="Search by name" class="input-field-searchbyname" />
+                <div class="container">
+                    <div class="row mx-0">
+                        <div class="search-input">
+                            <img src='./images/search icon.png' alt="" class="search-icon" />
+                            <input placeholder="Search by name" class="input-field-searchbyname" />
+                        </div>
+                        <div class="show-all-div">
+                            <span class="checkbox-icon">
+                                <img src='./images/Path.png' alt="" />
+                            </span>
+                            <span class="show">Show All</span>
+                        </div>
                     </div>
-                    <div class="show-all-div">
-                        <span class="checkbox-icon">
-                            <img src='./images/Path.png' alt="" />
-                        </span>
-                        <span class="show">Show All</span>
+                    <div class="row mx-0">
+                        <span class="text-button">Popular</span>
                     </div>
-                </div>
-                <div class="row mx-0">
-                    <span class="text-button">Popular</span>
-                </div>
-                <div>
-                    <button class="non-selected-btn rawdata-buttons">Democracy</button>
-                    <button class="selected-btn rawdata-buttons">Democracy</button>
-                    <button class="selected-btn rawdata-buttons">External Affairs & Security</button>
-                    <button class="non-selected-btn rawdata-buttons">Democracy</button>
-                    <button class="non-selected-btn rawdata-buttons">Democracy</button>
-                </div>
-                <div class="row mx-0">
-                    <span class="text-button">Category Name</span>
-                </div>
-                <div>
-                    <button class="non-selected-btn rawdata-buttons">Democracy</button>
-                    <button class="non-selected-btn rawdata-buttons">Democracy</button>
-                </div>
+                    <div>
+                        <button class="non-selected-btn rawdata-buttons">Democracy</button>
+                        <button class="selected-btn rawdata-buttons">Democracy</button>
+                        <button class="selected-btn rawdata-buttons">External Affairs & Security</button>
+                        <button class="non-selected-btn rawdata-buttons">Democracy</button>
+                        <button class="non-selected-btn rawdata-buttons">Democracy</button>
+                    </div>
+                    <div class="row mx-0">
+                        <span class="text-button">Category Name</span>
+                    </div>
+                    <div>
+                        <button class="non-selected-btn rawdata-buttons">Democracy</button>
+                        <button class="non-selected-btn rawdata-buttons">Democracy</button>
+                    </div>
 
+
+                </div>
             </div>
             <div class="col-md-7">
                 <div class="row mx-0">
                     <div class="col-md-6">
                         <div class="insight">
                             <div class="insight-image">
-                                <img src='./images/Rectangle 270.png' alt="insight number 01" />
+                                <img src='./images/Rectangle 270.png' alt="insight number 01" class="raw-data-pic" />
                             </div>
                             <div class="container">
                                 <p class="insight-heading">Insight 1</p>
@@ -176,7 +188,7 @@
                     <div class="col-md-6">
                         <div class="insight">
                             <div class="insight-image">
-                                <img src='./images/Rectangle 270.png' alt="insight number 01" />
+                                <img src='./images/Rectangle 270.png' alt="insight number 01" class="raw-data-pic" />
                             </div>
                             <div class="container">
                                 <p class="insight-heading">Insight 1</p>
@@ -199,7 +211,7 @@
                     <div class="col-md-6">
                         <div class="insight">
                             <div class="insight-image">
-                                <img src='./images/Rectangle 270.png' alt="insight number 01" />
+                                <img src='./images/Rectangle 270.png' alt="insight number 01" class="raw-data-pic" />
                             </div>
                             <div class="container">
                                 <p class="insight-heading">Insight 1</p>
@@ -220,7 +232,7 @@
                     <div class="col-md-6">
                         <div class="insight">
                             <div class="insight-image">
-                                <img src='./images/Rectangle 270.png' alt="insight number 01" />
+                                <img src='./images/Rectangle 270.png' alt="insight number 01" class="raw-data-pic" />
                             </div>
                             <div class="container">
                                 <p class="insight-heading">Insight 1</p>
@@ -239,14 +251,22 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- /************* button part  *************/ -->
+
+                <div class="research-button">
+                    <button class="transparent-button">
+                        back to overview
+                    </button>
+                </div>
+
             </div>
 
         </div>
     </div>
 
-
     <!-- /************* footer part  *************/ -->
-    <div class="footer">
+    <div class="footer no-margin">
         <div class="footer-logo">
             <img src='./images/logo.png' alt="logo" class="footer-logo-img" />
         </div>
@@ -265,14 +285,13 @@
             </div>
         </div>
         <div class="footer-privacy row mx-0">
-            <div class="col-md-8 pr-0">
+            <div class="col-md-8 pr-0 copy-right">
                 Copyright © 2021 AfriSight B.V. All rights reserved
             </div>
             <div class="col-md-4 privacypolicy">
                 Privacy policy
             </div>
         </div>
-    </div>
 
 </body>
 

@@ -5,7 +5,7 @@
  height: 533px; 
 }
 .research-content{
-    padding-left: 88px;
+    /* padding-left: 88px; */
     padding-top: 136px;
     padding-bottom: 5px;
 }
@@ -16,6 +16,13 @@
     font-size: 56px;
     line-height: 67px;
     color: #002628;
+ }
+ .insta-research{
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+ .web-disabled{
+     display: none !important;
  }
 .research-paragraph{
     padding-top: 16px;
@@ -54,8 +61,8 @@ button:focus {
 }
 
 .research-second-content{
-    padding-left: 88px;
-  padding-top: 25.19px;
+    /* padding-left: 88px;
+  padding-top: 25.19px; */
 }
 .photo-01{
 background: url(./images/picture02.png);
@@ -84,13 +91,14 @@ background-size: cover;
 
 .gradient-content{
     position: absolute;
-    bottom: 14px !important;
-    padding: 0px 23px 18px;
-    background: linear-gradient(180deg, rgba(4, 46, 64, 0) 49.24%, #042E40 100%), url(photo-1604196623307-68af091edbc6.jpg);
-    filter: drop-shadow(1px 3px 2px rgba(0, 55, 79, 0.04)), drop-shadow(2px 4px 8px rgba(0, 38, 40, 0.15));
+    bottom: 20px !important;
+    padding-left: 15px !important;
+    /* padding: 0px 23px 18px; */
+    /* background: linear-gradient(180deg, rgba(4, 46, 64, 0) 49.24%, #042E40 100%), url(photo-1604196623307-68af091edbc6.jpg);
+    filter: drop-shadow(1px 3px 2px rgba(0, 55, 79, 0.04)), drop-shadow(2px 4px 8px rgba(0, 38, 40, 0.15)); */
     border-radius: 4px;
-    width: 413px;
-    margin-left: 5px;
+    /* width: 413px;
+    margin-left: 5px; */
      background-size: cover;
      color: #fff !important;
 }
@@ -98,7 +106,7 @@ background-size: cover;
  width: 416px;
 height: 256px;
 }
-.research-second-heading{  
+.research-rawdata-heading{  
 font-family: Poppins;
 font-style: bold;
 font-weight: bold;
@@ -131,7 +139,7 @@ color: #002628;
    border: 1px solid #137DAB;
 }
 .blue-icons{
-   padding-top: 78.19px;
+   padding-top: 58.19px;
     padding-bottom: 25px;
     text-align: center;
     padding-left: 25px;
@@ -162,8 +170,8 @@ background: #E3F4F8;
     margin-top: 50px; 
 }
 .blue-icons-right{
- padding-top: 78.19px;
-    padding-bottom: 25px;
+padding-top: 58px;
+    padding-bottom: 58px;
     text-align: center;
     padding-right: 25px;
 }
@@ -171,3 +179,36 @@ background: #E3F4F8;
 display: flex;
 padding-left: 50px;
 }
+
+.right-box-padding{
+    padding-left: 35px;
+}
+
+/* 
+@media (min-width: 992px) {
+    .web-disabled{
+     display: block;
+ } 
+ .blue-icons{
+   display: none !important;
+}
+
+} */
+
+@media only screen and (max-device-width: 480px) {
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+ .web-disabled{
+     display: block !important;
+     padding-bottom: 10px !important;
+ }
+  .blue-icons{
+   display: none !important;
+}
+.blue-icons-right{
+    display: none !important;
+}
+.right-box-padding{
+    padding-left: 0px;
+}
+ 
+    }

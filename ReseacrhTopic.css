@@ -58,16 +58,20 @@ line-height: 150%;
 color: #8A979C;
 }
 .icons{
-    margin-top: 50px;
-
+    margin-top: 25px;
+}
+.twittericon{
+    padding: 0px 20px;
 }
 
 .left-box, .researchTopic-second-row{
     margin-top: 50px;
 }
 .card{
-    border: none;
+    /* border: none; */
     background: #E3F4F8;
+    width: 100%;
+ border: 0px solid !important;
 
 }
 
@@ -100,4 +104,13 @@ border-radius: 4px;
     border: 2px solid #B9B9B9;
     width: 40% !important;
 
+}
+
+.research-topic-img{
+    width: 100%;
+}
+.research-button{
+   margin: 100px 0px;
+   display: flex;
+   justify-content: center;
 }
