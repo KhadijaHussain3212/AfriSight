@@ -223,17 +223,48 @@ margin-left: 10px;
    justify-content: center;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media (max-width: 576px) {
        /* styles for mobile browsers smaller than 480px; (iPhone) */
 .rawData_header {
     background: url(./images/curvedbg.png);
     background-size: cover;
     width: 100%;
-    height: 860px !important;
+    height: 812px !important;
 }
 .search-input{
     margin-top: 5px;
     margin-left: 20px;
 }
+.rawData-content{
+    padding-top: 80px;
+    padding-bottom: 5px;
+    }
+.rawData-heading, .rawData-second-portion{
+    font-size: 35px  !important;
+    }
+    
+.rawData-paragraph{ 
+    font-size: 16px !important; 
+    }
+
+    .non-selected-btn {
+        border: 1px solid #8A979C !important;
+        color: #8A979C;
+        text-transform: uppercase;
+        font-size: 12px !important;
+        padding: 5px 17px !important;
+    }
+    .selected-btn {
+        border: 1px solid #137DAB !important;
+        color: #137DAB;
+        text-transform: uppercase;
+        font-size: 12px !important;
+        padding: 5px 17px !important;
+    }
+    .text-button{
+        font-size: 20px;
+   
+    margin: 20px 0px 10px 0px;
+    }
 
     }
